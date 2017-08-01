@@ -1,10 +1,10 @@
 <application>
   <component name="ProjectJdkTable">
     <jdk version="2">
-      <name value="1.8" />
+      <name value="JDK 1.8" />
       <type value="JavaSDK" />
       <version value="java version &quot;1.8.0_121&quot;" />
-      <homePath value="C:/Program Files/Java/jdk1.8.0_121" />
+      <homePath value="C:\Program Files\Java\jdk1.8.0_121" />
       <roots>
         <annotationsPath>
           <root type="composite">
@@ -49,6 +49,35 @@
         </sourcePath>
       </roots>
       <additional />
+    </jdk>
+    <jdk version="2">
+      <name value="Android API 25 Platform" />
+      <type value="Android SDK" />
+      <homePath value="C:/AndroidSDK" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root type="simple" url="jar://$APPLICATION_HOME_DIR$/plugins/android/lib/androidAnnotations.jar!/" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root type="simple" url="jar://C:/AndroidSDK/platforms/android-25/android.jar!/" />
+            <root type="simple" url="file://C:/AndroidSDK/platforms/android-25/data/res" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite">
+            <root type="simple" url="file://C:/AndroidSDK/docs/reference" />
+          </root>
+        </javadocPath>
+        <sourcePath>
+          <root type="composite">
+            <root type="simple" url="file://C:/AndroidSDK/sources/android-25" />
+          </root>
+        </sourcePath>
+      </roots>
+      <additional jdk="JDK 1.8" sdk="android-25" />
     </jdk>
   </component>
 </application>
